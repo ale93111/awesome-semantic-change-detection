@@ -9,7 +9,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 | Paper                                             |  Published in | Code/Project|                                  
 |---------------------------------------------------|:-------------:|:------------:|
 [Multitask semantic change detection guided by spatiotemporal semantic interaction](https://www.nature.com/articles/s41598-025-00750-8)|2025|-
-[Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection](https://arxiv.org/abs/2505.04199v1)|2025|-
+[Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection](https://arxiv.org/abs/2505.04199v1)|2025|[code](https://github.com/Buddhi19/SCanNet)
 [Semantic enhancement and change consistency network for semantic change detection in remote sensing images](https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2496790)|2025|[code](https://github.com/XiaoJ058/RS-SCD)
 [Recurrent Semantic Change Detection in VHR Remote Sensing Images Using Visual Foundation Models](https://ieeexplore.ieee.org/document/10929728)|2025|-
 [Semantic-CD: Remote Sensing Image Semantic Change Detection towards Open-vocabulary Setting ](https://arxiv.org/abs/2501.06808v1)|2025|-

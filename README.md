@@ -6,25 +6,44 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 
 # Papers
 
-| Paper                                             |  Published in | Code/Project|                                  
-|---------------------------------------------------|:-------------:|:------------:|
-[Multitask semantic change detection guided by spatiotemporal semantic interaction](https://www.nature.com/articles/s41598-025-00750-8)|2025|-
-[Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection](https://arxiv.org/abs/2505.04199v1)|2025|[code](https://github.com/Buddhi19/SCanNet)
-[Semantic enhancement and change consistency network for semantic change detection in remote sensing images](https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2496790)|2025|[code](https://github.com/XiaoJ058/RS-SCD)
-[Recurrent Semantic Change Detection in VHR Remote Sensing Images Using Visual Foundation Models](https://ieeexplore.ieee.org/document/10929728)|2025|-
-[Semantic-CD: Remote Sensing Image Semantic Change Detection towards Open-vocabulary Setting ](https://arxiv.org/abs/2501.06808v1)|2025|-
-[ChangeMamba: Remote Sensing Change Detection with Spatio-Temporal State Space ](https://arxiv.org/abs/2404.03425)|2024|[code](https://github.com/ChenHongruixuan/ChangeMamba)
-[Semantic change detection using a hierarchical semantic graph interaction network from high-resolution remote sensing images](https://www.sciencedirect.com/science/article/abs/pii/S0924271624001709)|2024|[code](https://github.com/long123524/HGINet-torch)
-[A Decoder-Focused Multitask Network for Semantic Change Detection](https://ieeexplore.ieee.org/document/10422819)|2024|[code](https://github.com/byyztgxz/Decoder_Fusion)
-Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensing Images|2024|-
-[Joint Spatio-Temporal Modeling for Semantic Change Detection in Remote Sensing Images](https://ieeexplore.ieee.org/document/10443352)|2024|[code](https://github.com/DingLei14/SCanNet)
-[CGMNet: Semantic Change Detection via a Change-Aware Guided Multi-Task Network ](https://www.mdpi.com/2072-4292/16/13/2436)|2024|-
-[SMNet: Symmetric Multi-Task Network for Semantic Change Detection in Remote Sensing Images Based on CNN and Transformer ](https://www.mdpi.com/2072-4292/15/4/949)|2023|-
-[Bi-Temporal Semantic Reasoning for the Semantic Change Detection in HR Remote Sensing Images](https://arxiv.org/abs/2108.06103)|2022|[code](https://github.com/DingLei14/Bi-SRNet)
-[SCDNET: A novel convolutional network for semantic change detection in high resolution optical remote sensing imagery](https://www.sciencedirect.com/science/article/pii/S0303243421001720)|2021|[code](https://github.com/daifeng2016/Semantic-Change-Detection)
-[ChangeMask: Deep multi-task encoder-transformer-decoder architecture for semantic change detection](https://www.sciencedirect.com/science/article/abs/pii/S0924271621002835)|2021|[code](https://github.com/Z-Zheng/pytorch-change-models)
-[Semantic Change Detection with Asymmetric Siamese Networks](https://arxiv.org/abs/2010.05687v2)|2020|-
-[Multitask learning for large-scale semantic change detection](https://www.sciencedirect.com/science/article/abs/pii/S1077314219300992)|2019|-
+| Paper                                          | Published in | Code/Project| Model name|                          
+|------------------------------------------------|:------------:|:-----------:|:---------:|
+[Multitask semantic change detection guided by spatiotemporal semantic interaction](https://www.nature.com/articles/s41598-025-00750-8)|2025|-|STGNet|
+[Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection](https://arxiv.org/abs/2505.04199v1)|2025|[code](https://github.com/Buddhi19/SCanNet)|SCanNet + CBAM + L<sub>Dice</sub> |
+[Semantic enhancement and change consistency network for semantic change detection in remote sensing images](https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2496790)|2025|[code](https://github.com/XiaoJ058/RS-SCD)|SCNet|
+[Recurrent Semantic Change Detection in VHR Remote Sensing Images Using Visual Foundation Models](https://ieeexplore.ieee.org/document/10929728)|2025|[code](https://github.com/Gaia0811/VFM-SCD)|VFM-ReSCD|
+[Semantic-CD: Remote Sensing Image Semantic Change Detection towards Open-vocabulary Setting ](https://arxiv.org/abs/2501.06808v1)|2025|-|Semantic-CD|
+[ChangeMamba: Remote Sensing Change Detection with Spatio-Temporal State Space ](https://arxiv.org/abs/2404.03425)|2024|[code](https://github.com/ChenHongruixuan/ChangeMamba)|MamabaSCD|
+[A Late-Stage Bitemporal Feature Fusion Network for Semantic Change Detection](https://arxiv.org/pdf/2406.10678)|2024|[code](https://github.com/STORMTROOPERRR/RSISCD)|LSAFNet|
+[Semantic change detection using a hierarchical semantic graph interaction network from high-resolution remote sensing images](https://www.sciencedirect.com/science/article/abs/pii/S0924271624001709)|2024|[code](https://github.com/long123524/HGINet-torch)|HGINet|
+[A Decoder-Focused Multitask Network for Semantic Change Detection](https://ieeexplore.ieee.org/document/10422819)|2024|[code](https://github.com/byyztgxz/Decoder_Fusion)|DEFO-MLTSCD|
+Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensing Images|2024|-|DFINet|
+[Joint Spatio-Temporal Modeling for Semantic Change Detection in Remote Sensing Images](https://ieeexplore.ieee.org/document/10443352)|2024|[code](https://github.com/DingLei14/SCanNet)|SCanNet|
+[CGMNet: Semantic Change Detection via a Change-Aware Guided Multi-Task Network ](https://www.mdpi.com/2072-4292/16/13/2436)|2024|-|CGMNet|
+[SMNet: Symmetric Multi-Task Network for Semantic Change Detection in Remote Sensing Images Based on CNN and Transformer ](https://www.mdpi.com/2072-4292/15/4/949)|2023|-|SMNet|
+[Bi-Temporal Semantic Reasoning for the Semantic Change Detection in HR Remote Sensing Images](https://arxiv.org/abs/2108.06103)|2022|[code](https://github.com/DingLei14/Bi-SRNet)|Bi-SRNet|
+[SCDNET: A novel convolutional network for semantic change detection in high resolution optical remote sensing imagery](https://www.sciencedirect.com/science/article/pii/S0303243421001720)|2021|[code](https://github.com/daifeng2016/Semantic-Change-Detection)|SCDNET|
+[ChangeMask: Deep multi-task encoder-transformer-decoder architecture for semantic change detection](https://www.sciencedirect.com/science/article/abs/pii/S0924271621002835)|2021|[code](https://github.com/Z-Zheng/pytorch-change-models)|ChangeMask|
+[Semantic Change Detection with Asymmetric Siamese Networks](https://arxiv.org/abs/2010.05687v2)|2020|-|ASN-ATL|
+[Multitask learning for large-scale semantic change detection](https://www.sciencedirect.com/science/article/abs/pii/S1077314219300992)|2019|-||
+
+# Benchmark
+
+## SECOND Dataset
+
+|               Model               |  mIoU |  SeK  | Score |
+| :-------------------------------: | :---: | :---: | :---: |
+|               STGNet              | 72.83 | 22.45 | 37.56 |
+| SCanNet + CBAM + L<sub>Dice</sub> | 73.63 | 24.25 | 39.06 |
+|               SCNet               | 73.85 | 23.99 | 38.95 |
+|             VFM-ReSCD             | 73.33 | 24.01 | 38.81 |
+|            Semantic-CD            | 75.10 | 23.85 | 39.23 |
+|             MamabaSCD             | 73.68 | 22.92 | 38.15 |
+|              LSAFNet              | 74.01 | 24.32 | 39.23 |
+|               HGINet              |   --  |   --  |   --  |
+|            DEFO-MLTSCD            | 73.76 | 23.73 | 38.74 |
+|               DFINet              | 72.61 | 20.12 | 35.87 |
+|              SCanNet              | 73.42 | 23.94 | 38.78 |
 
 
 # Datasets

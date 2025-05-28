@@ -8,6 +8,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 
 | Paper                                          | Published in | Code/Project| Model name|                          
 |------------------------------------------------|:------------:|:-----------:|:---------:|
+[A Semantic Change Detection Network Based on Boundary Detection and Task Interaction for High-Resolution Remote Sensing Images](https://ieeexplore.ieee.org/document/11015343)|2025|[code](https://github.com/TangYJ1229/BT-SCD)|BT-SCD|
 [Multitask semantic change detection guided by spatiotemporal semantic interaction](https://www.nature.com/articles/s41598-025-00750-8)|2025|-|STGNet|
 [Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection](https://arxiv.org/abs/2505.04199v1)|2025|[code](https://github.com/Buddhi19/SCanNet)|SCanNet + CBAM + L<sub>Dice</sub> |
 [Semantic enhancement and change consistency network for semantic change detection in remote sensing images](https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2496790)|2025|[code](https://github.com/XiaoJ058/RS-SCD)|SCNet|
@@ -33,6 +34,7 @@ Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensi
 
 |               Model               |  mIoU |  SeK  | Score |
 | :-------------------------------: | :---: | :---: | :---: |
+|               BT-SCD              | 73.67 | 24.21 | 39.04 |
 |               STGNet              | 72.83 | 22.45 | 37.56 |
 | SCanNet + CBAM + L<sub>Dice</sub> | 73.63 | 24.25 | 39.06 |
 |               SCNet               | 73.85 | 23.99 | 38.95 |

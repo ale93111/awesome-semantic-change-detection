@@ -15,6 +15,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 [Recurrent Semantic Change Detection in VHR Remote Sensing Images Using Visual Foundation Models](https://ieeexplore.ieee.org/document/10929728)|2025|[code](https://github.com/Gaia0811/VFM-SCD)|VFM-ReSCD|
 [Semantic-CD: Remote Sensing Image Semantic Change Detection towards Open-vocabulary Setting ](https://arxiv.org/abs/2501.06808v1)|2025|-|Semantic-CD|
 [ChangeMamba: Remote Sensing Change Detection with Spatio-Temporal State Space ](https://arxiv.org/abs/2404.03425)|2024|[code](https://github.com/ChenHongruixuan/ChangeMamba)|MamabaSCD|
+[SCD-SAM: Adapting Segment Anything Model for Semantic Change Detection in Remote Sensing Imagery](https://ieeexplore.ieee.org/document/10543161)|2024|[code](https://github.com/yzygit1230/SCD-SAM)|SCD-SAM|
 [A Late-Stage Bitemporal Feature Fusion Network for Semantic Change Detection](https://arxiv.org/pdf/2406.10678)|2024|[code](https://github.com/STORMTROOPERRR/RSISCD)|LSAFNet|
 [Semantic change detection using a hierarchical semantic graph interaction network from high-resolution remote sensing images](https://www.sciencedirect.com/science/article/abs/pii/S0924271624001709)|2024|[code](https://github.com/long123524/HGINet-torch)|HGINet|
 [A Decoder-Focused Multitask Network for Semantic Change Detection](https://ieeexplore.ieee.org/document/10422819)|2024|[code](https://github.com/byyztgxz/Decoder_Fusion)|DEFO-MLTSCD|
@@ -41,6 +42,7 @@ Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensi
 |             VFM-ReSCD             | 73.33 | 24.01 | 38.81 |
 |            Semantic-CD            | 75.10 | 23.85 | 39.23 |
 |             MamabaSCD             | 73.68 | 22.92 | 38.15 |
+|              SCD-SAM              | 77.75 | 32.44 | 46.03 |
 |              LSAFNet              | 74.01 | 24.32 | 39.23 |
 |               HGINet              |   --  |   --  |   --  |
 |            DEFO-MLTSCD            | 73.76 | 23.73 | 38.74 |

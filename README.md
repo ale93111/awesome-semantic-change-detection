@@ -8,6 +8,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 
 | Paper                                          | Published in | Code/Project| Model name|                          
 |------------------------------------------------|:------------:|:-----------:|:---------:|
+[Graph Aggregation Prototype Learning for Semantic Change Detection in Remote Sensing](https://arxiv.org/abs/2507.10938)|2025|-|GAPL-SCD|
 [A Semantic Change Detection Network Based on Boundary Detection and Task Interaction for High-Resolution Remote Sensing Images](https://ieeexplore.ieee.org/document/11015343)|2025|[code](https://github.com/TangYJ1229/BT-SCD)|BT-SCD|
 [Multitask semantic change detection guided by spatiotemporal semantic interaction](https://www.nature.com/articles/s41598-025-00750-8)|2025|-|STGNet|
 [Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection](https://arxiv.org/abs/2505.04199v1)|2025|[code](https://github.com/Buddhi19/SCanNet)|SCanNet + CBAM + L<sub>Dice</sub> |

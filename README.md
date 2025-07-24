@@ -8,6 +8,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 
 | Paper                                          | Published in | Code/Project| Model name|                          
 |------------------------------------------------|:------------:|:-----------:|:---------:|
+[AtrousMamaba: An Atrous-Window Scanning Visual State Space Model for Remote Sensing Change Detection](https://arxiv.org/abs/2507.16172)|2025|-|AWMambaSCD|
 [Graph Aggregation Prototype Learning for Semantic Change Detection in Remote Sensing](https://arxiv.org/abs/2507.10938)|2025|-|GAPL-SCD|
 [A Semantic Change Detection Network Based on Boundary Detection and Task Interaction for High-Resolution Remote Sensing Images](https://ieeexplore.ieee.org/document/11015343)|2025|[code](https://github.com/TangYJ1229/BT-SCD)|BT-SCD|
 [Multitask semantic change detection guided by spatiotemporal semantic interaction](https://www.nature.com/articles/s41598-025-00750-8)|2025|-|STGNet|
@@ -36,6 +37,7 @@ Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensi
 
 |               Model               |  mIoU |  SeK  | Score |
 | :-------------------------------: | :---: | :---: | :---: |
+|             AWMambaSCD            | 73.66 | 24.95 | 39.56 |
 |               BT-SCD              | 73.67 | 24.21 | 39.04 |
 |               STGNet              | 72.83 | 22.45 | 37.56 |
 | SCanNet + CBAM + L<sub>Dice</sub> | 73.63 | 24.25 | 39.06 |

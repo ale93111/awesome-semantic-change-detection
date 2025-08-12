@@ -8,6 +8,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 
 | Paper                                          | Published in | Code/Project| Model name|                          
 |------------------------------------------------|:------------:|:-----------:|:---------:|
+[Mamba-FCS: Joint Spatio- Frequency Feature Fusion, Change-Guided Attention, and SeK Loss for Enhanced Semantic Change Detection in Remote Sensing](https://arxiv.org/abs/2508.08232)|2025|[code](https://github.com/Buddhi19/Mamba-FCS)|Mamba-FCS|
 [AtrousMamaba: An Atrous-Window Scanning Visual State Space Model for Remote Sensing Change Detection](https://arxiv.org/abs/2507.16172)|2025|-|AWMambaSCD|
 [Graph Aggregation Prototype Learning for Semantic Change Detection in Remote Sensing](https://arxiv.org/abs/2507.10938)|2025|-|GAPL-SCD|
 [MSSDF: Modality-Shared Self-supervised Distillation for High-Resolution Multi-modal Remote Sensing Image Learning](https://arxiv.org/abs/2506.09327)|2025|[code](https://github.com/CVEO/MSSDF)|MSSDF|
@@ -38,6 +39,7 @@ Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensi
 
 |               Model               |  mIoU |  SeK  | Score |
 | :-------------------------------: | :---: | :---: | :---: |
+|              Mamba-FCS            | 74.07 | 25.50 | 40.07 |
 |             AWMambaSCD            | 73.66 | 24.95 | 39.56 |
 |               BT-SCD              | 73.67 | 24.21 | 39.04 |
 |               STGNet              | 72.83 | 22.45 | 37.56 |

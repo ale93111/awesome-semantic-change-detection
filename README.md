@@ -8,6 +8,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 
 | Paper                                          | Published in | Code/Project| Model name|                          
 |------------------------------------------------|:------------:|:-----------:|:---------:|
+[GSTM-SCD: Graph-enhanced spatio-temporal state space model for semantic change detection in multi-temporal remote sensing images](https://www.sciencedirect.com/science/article/pii/S0924271625003557)|2025|[code](https://github.com/liuxuanguang/GSTM-SCD)|GSTM-SCD|
 [FoBa: A Foreground-Background co-Guided Method and New Benchmark for Remote Sensing Semantic Change Detection](https://arxiv.org/abs/2509.15788)|2025|[code](https://github.com/zmoka-zht/FoBa)|FoBa|
 [Mamba-FCS: Joint Spatio- Frequency Feature Fusion, Change-Guided Attention, and SeK Loss for Enhanced Semantic Change Detection in Remote Sensing](https://arxiv.org/abs/2508.08232)|2025|[code](https://github.com/Buddhi19/Mamba-FCS)|Mamba-FCS|
 [AtrousMamaba: An Atrous-Window Scanning Visual State Space Model for Remote Sensing Change Detection](https://arxiv.org/abs/2507.16172)|2025|-|AWMambaSCD|
@@ -40,6 +41,7 @@ Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensi
 
 |               Model               |  mIoU |  SeK  | Score |
 | :-------------------------------: | :---: | :---: | :---: |
+|              GSTM-SCD             | 73.61 | 24.36 | 39.13 |
 |                FoBa               | 74.50 | 24.61 | 39.58 |
 |              Mamba-FCS            | 74.07 | 25.50 | 40.07 |
 |             AWMambaSCD            | 73.66 | 24.95 | 39.56 |

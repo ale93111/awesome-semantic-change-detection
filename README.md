@@ -8,6 +8,7 @@ List of datasets, codes, and contests related to remote sensing semantic change 
 
 | Paper                                          | Published in | Code/Project| Model name|                          
 |------------------------------------------------|:------------:|:-----------:|:---------:|
+[TaCo: Capturing Spatio-Temporal Semantic Consistency in Remote Sensing Change Detection](https://arxiv.org/abs/2511.20306)|2025|-|TaCo|
 [A change detection framework with relative depth information assistance](https://www.sciencedirect.com/science/article/pii/S1569843225005898)|2025|-|DaCDF|
 [UniChange: Unifying Change Detection with Multimodal Large Language Model](https://arxiv.org/abs/2511.02607v1)|2025|[code](https://github.com/Erxucomeon/UniChange)|UniChange|
 [GSTM-SCD: Graph-enhanced spatio-temporal state space model for semantic change detection in multi-temporal remote sensing images](https://www.sciencedirect.com/science/article/pii/S0924271625003557)|2025|[code](https://github.com/liuxuanguang/GSTM-SCD)|GSTM-SCD|
@@ -43,6 +44,7 @@ Dual-Dimension Feature Interaction for Semantic Change Detection in Remote Sensi
 
 |               Model               |  mIoU |  SeK  | Score |
 | :-------------------------------: | :---: | :---: | :---: |
+|                TaCo               | 73.77 | 24.73 | 39.44 |
 |               DaCDF               | 72.30 | 21.88 | 37.00 |
 |             UniChange             | 72.85 | 23.02 | 37.97 |
 |              GSTM-SCD             | 73.61 | 24.36 | 39.13 |
